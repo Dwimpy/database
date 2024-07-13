@@ -1,0 +1,3 @@
+C:/coding/database/build/CMakeFiles/database.dir
+C:/coding/database/build/CMakeFiles/edit_cache.dir
+C:/coding/database/build/CMakeFiles/rebuild_cache.dir

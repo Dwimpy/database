@@ -1,0 +1,7 @@
+# ninja log v5
+102	201	7425302691445065	database.exe	7b0cd18878af884c
+9	102	7425302690486215	CMakeFiles/database.dir/src/ft_string.c.obj	dc973b3609bf1730
+13	81	7425302690276450	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
+2	287	7425350595052370	build.ninja	2447b2fb7bc4461c
+7	75	7425350631963178	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
+4	100	7425350632222474	CMakeFiles/database.dir/src/ft_string.c.obj	dc973b3609bf1730
