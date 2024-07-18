@@ -58,6 +58,27 @@ build CMakeFiles/database.dir/main.c.obj: C_COMPILER__database_unscanned_ C$:/co
   OBJECT_DIR = CMakeFiles\database.dir
   OBJECT_FILE_DIR = CMakeFiles\database.dir
 
+build CMakeFiles/database.dir/src/ft_vector.c.obj: C_COMPILER__database_unscanned_ C$:/coding/database/src/ft_vector.c || cmake_object_order_depends_target_database
+  DEP_FILE = CMakeFiles\database.dir\src\ft_vector.c.obj.d
+  FLAGS = -std=gnu11
+  INCLUDES = -IC:/coding/database/include
+  OBJECT_DIR = CMakeFiles\database.dir
+  OBJECT_FILE_DIR = CMakeFiles\database.dir\src
+
+build CMakeFiles/database.dir/tests/string_tests.c.obj: C_COMPILER__database_unscanned_ C$:/coding/database/tests/string_tests.c || cmake_object_order_depends_target_database
+  DEP_FILE = CMakeFiles\database.dir\tests\string_tests.c.obj.d
+  FLAGS = -std=gnu11
+  INCLUDES = -IC:/coding/database/include
+  OBJECT_DIR = CMakeFiles\database.dir
+  OBJECT_FILE_DIR = CMakeFiles\database.dir\tests
+
+build CMakeFiles/database.dir/tests/vector_tests.c.obj: C_COMPILER__database_unscanned_ C$:/coding/database/tests/vector_tests.c || cmake_object_order_depends_target_database
+  DEP_FILE = CMakeFiles\database.dir\tests\vector_tests.c.obj.d
+  FLAGS = -std=gnu11
+  INCLUDES = -IC:/coding/database/include
+  OBJECT_DIR = CMakeFiles\database.dir
+  OBJECT_FILE_DIR = CMakeFiles\database.dir\tests
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target database
@@ -66,7 +87,8 @@ build CMakeFiles/database.dir/main.c.obj: C_COMPILER__database_unscanned_ C$:/co
 #############################################
 # Link the executable database.exe
 
-build database.exe: C_EXECUTABLE_LINKER__database_ CMakeFiles/database.dir/src/ft_string.c.obj CMakeFiles/database.dir/main.c.obj
+build database.exe: C_EXECUTABLE_LINKER__database_ CMakeFiles/database.dir/src/ft_string.c.obj CMakeFiles/database.dir/main.c.obj CMakeFiles/database.dir/src/ft_vector.c.obj CMakeFiles/database.dir/tests/string_tests.c.obj CMakeFiles/database.dir/tests/vector_tests.c.obj
+  LINK_FLAGS = -static-libgcc -static-libstdc++ -static
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\database.dir
   POST_BUILD = cd .

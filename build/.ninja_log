@@ -1,7 +1,20 @@
 # ninja log v5
-102	201	7425302691445065	database.exe	7b0cd18878af884c
-9	102	7425302690486215	CMakeFiles/database.dir/src/ft_string.c.obj	dc973b3609bf1730
-13	81	7425302690276450	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
-2	287	7425350595052370	build.ninja	2447b2fb7bc4461c
-7	75	7425350631963178	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
-4	100	7425350632222474	CMakeFiles/database.dir/src/ft_string.c.obj	dc973b3609bf1730
+1	111	7430432764669753	build.ninja	2447b2fb7bc4461c
+4	72	7430426918875850	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
+13	126	7430411996394216	CMakeFiles/database.dir/src/ft_string.c.obj	dc973b3609bf1730
+21	103	7430411996164780	CMakeFiles/database.dir/tests/string_tests.c.obj	dcf83317ac4013d4
+72	167	7430426919790497	database.exe	16beb919951b3c78
+24	74	7430411995875582	CMakeFiles/database.dir/tests/vector_tests.c.obj	e93a9ca8917e5a69
+8	88	7430426502302841	CMakeFiles/database.dir/src/ft_vector.c.obj	e38f049fe4f4790f
+17	92	7430432782376797	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
+19	100	7430432782456573	CMakeFiles/database.dir/src/ft_vector.c.obj	e38f049fe4f4790f
+13	127	7430432782726208	CMakeFiles/database.dir/src/ft_string.c.obj	dc973b3609bf1730
+127	232	7430432783736735	database.exe	16beb919951b3c78
+4	73	7430433071495910	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
+73	169	7430433072419616	database.exe	16beb919951b3c78
+4	73	7430433166165246	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
+74	170	7430433167095318	database.exe	16beb919951b3c78
+4	82	7430434114414088	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
+8	88	7430434114473901	CMakeFiles/database.dir/src/ft_vector.c.obj	e38f049fe4f4790f
+6	83	7430434226559273	CMakeFiles/database.dir/main.c.obj	bf8560b91de4cb86
+84	184	7430434227532844	database.exe	16beb919951b3c78
